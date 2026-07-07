@@ -14,6 +14,14 @@ Not a chatbot impersonation. Not a quote generator. A structured "thinking profi
 
 ---
 
+## Demo
+
+<video src=".github/assets/demo.mp4" controls width="100%"></video>
+
+> *Describe a real decision → skill reads the profile index → suggests the right lens → surfaces where two frameworks conflict*
+
+---
+
 ## 🚀 Just installed this? Start here
 
 Open a new chat and type any of these — no special syntax, no slash command:
