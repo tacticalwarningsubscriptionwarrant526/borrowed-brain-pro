@@ -24,12 +24,14 @@ If unsure which mode, check whether `profiles/<name>.md` already exists first.
 
 Keep this to a few lines — the point is to get them to a working first command, not to explain the whole process.
 
-**If the user describes a real decision or dilemma without naming anyone** — no person mentioned, no profile referenced — don't stay silent just because neither mode was explicitly requested. Check whether `profiles/` has anything that plausibly bears on it. If it does, mention it in one line at the end of your normal response, e.g. "Unrelated to the above, but you've got a [Name] profile saved — want me to run this through it?" Then stop and wait for a yes. Do not:
-- Launch into a full Apply-mode response unprompted — that's presumptuous and risks forcing an irrelevant lens onto something it doesn't fit
+**If the user describes a real decision or dilemma without naming anyone** — no person mentioned, no profile referenced — read `profiles/INDEX.md` first. It lists every distilled profile and the specific question types each one is strongest for. Use it to decide whether anything is a genuine match. If yes, suggest 1–2 profiles in one line at the end of your normal response, e.g. "You've got a Buffett and a Voss profile saved — this sounds like a negotiation question more than an investing one. Want me to run it through Voss?" Then stop and wait for a yes. Do not:
+- Launch into a full Apply-mode response unprompted
 - Suggest a profile that's a weak or tenuous match just to seem helpful
-- Do this more than once per conversation if the user doesn't take you up on it — repeated unsolicited suggestions are noise, not help
+- Do this more than once per conversation if the user doesn't take you up on it
 
-If `profiles/` is empty or nothing plausibly relevant exists, say nothing — don't advertise Distill mode unprompted on every unrelated question.
+If `profiles/INDEX.md` doesn't exist or nothing in it is a genuine match, say nothing.
+
+**When the user asks "which profile should I use?" or "what profiles do I have?"** — read `profiles/INDEX.md` and present the table clearly. Recommend the 1–2 best fits for their situation and explain in one sentence why.
 
 ---
 
@@ -143,6 +145,14 @@ Keep the whole file readable in one sitting — this isn't a biography, it's a w
 ### Step 6 — Differentiation self-check (do this before finishing)
 
 Before treating the profile as done, reread the **Core stance**, **Recurring principles**, and **Default reasoning order** sections and ask: could these sentences be swapped onto a different person in this general field without anyone noticing? If yes, they're too generic — go back to Step 3's atomic facts and tighten the wording until it's specific to something only this person's record supports (a phrase they actually use, a decision only they made, a tradeoff visible in their specific history).
+
+### Step 7 — Update profiles/INDEX.md
+
+After saving `profiles/<name>.md`, open `profiles/INDEX.md` and add or update one row for this person:
+
+| [Name](name.md) | Domain (1–3 words) | 2–4 specific question types this profile is strongest for |
+
+Be concrete in the "Best for" column — not "leadership decisions" but "building candor into a team, handling a big strategic pivot." If the profile is thin or confidence is low, note that in the Best for column too, e.g. "thin sourcing — better for framing than depth." If a row for this person already exists, update it rather than adding a duplicate.
 
 ---
 
