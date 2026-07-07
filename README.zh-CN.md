@@ -130,18 +130,18 @@ git clone https://github.com/DOTfei/borrowed-brain-pro.git ~/.claude/skills/borr
 cd ~/.claude/skills/borrowed-brain-pro && git pull
 ```
 
-### Claude.ai（网页版）
+### Claude.ai（网页版）/ ChatGPT / 其他支持 system prompt 的 AI
 
+使用**一键包**——把 `SKILL.md` 和全部 9 份档案合并在一个文件里。粘贴一次进 system prompt，所有档案立即可用，不需要单独上传。
+
+1. 下载 [`claude-ai-bundle.md`](https://github.com/DOTfei/borrowed-brain-pro/raw/main/claude-ai-bundle.md)
+2. 开一个新对话，把全文粘贴进 system prompt 字段
+3. 直接开始——9 份档案已全部加载
+
+**Claude.ai 通过 Skills 上传（仅 SKILL.md，不含内置档案）：**
 1. 下载 [`SKILL.md`](https://github.com/DOTfei/borrowed-brain-pro/raw/main/SKILL.md)
 2. 打开 **Settings → Capabilities → Skills**，上传该文件
-
-> 注意：Claude.ai 无法读取你本地的 `profiles/` 文件夹。skill 本身仍然可以用——你可以建新档案，也可以把现有档案的内容粘贴进对话——但 8 份内置档案不会自动加载。想要完整体验，推荐使用 Claude Code。
-
-### ChatGPT / 其他支持 system prompt 的 AI
-
-下载 [`SKILL.md`](https://github.com/DOTfei/borrowed-brain-pro/raw/main/SKILL.md)，开一个新对话，把全文粘贴进 system prompt 字段。
-
-如果要使用某份已有档案，把对应的 `profiles/<name>.md` 内容也粘贴进 system prompt 或对话开头。
+3. 如需使用某份档案，把对应的 `profiles/<name>.md` 内容粘贴进对话开头
 
 ### Open WebUI / LM Studio / Ollama（本地模型）
 

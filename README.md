@@ -132,18 +132,18 @@ To update later:
 cd ~/.claude/skills/borrowed-brain-pro && git pull
 ```
 
-### Claude.ai (web)
+### Claude.ai (web) / ChatGPT / any AI with a system prompt
 
+Use the **all-in-one bundle** — it's `SKILL.md` + all 9 profiles merged into one file. Paste it once as your system prompt and everything works immediately, no separate file uploads needed.
+
+1. Download [`claude-ai-bundle.md`](https://github.com/DOTfei/borrowed-brain-pro/raw/main/claude-ai-bundle.md)
+2. Open a new chat, paste the entire contents as your system prompt
+3. Start — all 9 profiles are already loaded
+
+**Claude.ai via Skills upload** (SKILL.md only, no pre-built profiles):
 1. Download [`SKILL.md`](https://github.com/DOTfei/borrowed-brain-pro/raw/main/SKILL.md)
 2. Go to **Settings → Capabilities → Skills** and upload it
-
-> Note: Claude.ai can't access your local `profiles/` folder. The skill will still work — you can build new profiles and paste existing ones into chat — but the 8 included profiles won't be loaded automatically. For the full experience with pre-built profiles, Claude Code is recommended.
-
-### ChatGPT / any AI with a system prompt
-
-Download [`SKILL.md`](https://github.com/DOTfei/borrowed-brain-pro/raw/main/SKILL.md), open a new chat, and paste the full contents as the system prompt.
-
-To use an existing profile, paste the contents of that `profiles/<name>.md` file into the same system prompt or at the start of the conversation.
+3. To use a pre-built profile, paste the contents of any `profiles/<name>.md` file at the start of your conversation
 
 ### Open WebUI / LM Studio / Ollama (local models)
 
