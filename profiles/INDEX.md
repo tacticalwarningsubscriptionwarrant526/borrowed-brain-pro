@@ -2,17 +2,19 @@
 
 *Updated automatically each time a new profile is distilled. When the user describes a decision without naming anyone, read this index first and suggest 1–2 relevant profiles before applying.*
 
-| Person | Domain | Best for |
-|--------|--------|----------|
-| [Warren Buffett](warren-buffett.md) | Investing | Should I bet on this opportunity? Long-term hold vs. sell. Valuation discipline. Saying no to a deal. |
-| [Steve Jobs](steve-jobs.md) | Product / entrepreneurship | Which feature to cut. Launch timing. Saying no to requests. Simplifying a product line. |
-| [Chris Voss](chris-voss.md) | Negotiation | Contract talks. Breaking a deadlock. Getting a "no" to open up. Handling a hostile counterpart. |
-| [Richard Feynman](richard-feynman.md) | Research / reasoning | Checking a hypothesis. Hunting for self-deception. Presenting a complex idea simply. Auditing your own logic. |
-| [Cal Newport](cal-newport.md) | Productivity / deep work | Time allocation. Reducing distraction. Protecting focused work. Structural fixes vs. willpower fixes. |
-| [Reed Hastings](reed-hastings.md) | Leadership / culture | Building candor into a team. Handling a big strategic pivot. Farming for dissent before committing. |
-| [Travis Kalanick](travis-kalanick.md) | Aggressive growth / startups | Push into a hostile market or wait. Speed vs. compliance. Growth at all costs trade-offs. |
-| [Julia Evans](julia-evans.md) | Technical teaching / writing | Explaining something hard to a non-expert. Deciding what's worth documenting. Writing for your past self. |
-| [Sam Altman](sam-altman.md) | AI startups / growth | Should I ship before it's ready? Speed vs. safety trade-offs. How to frame a controversial decision publicly. Building a team that executes fast. |
+*Quality key — **Depth**: ★★★ deep (10+ sources, strong independent coverage) · ★★ solid (6–9 sources) · ★ thin (≤5 sources or mostly self-published). **Freshness**: 🟢 current (< 1 year) · 🟡 review recommended (1–2 years) · 🔴 may be stale (2+ years or fast-moving subject).*
+
+| Person | Domain | Depth | Freshness | Best for |
+|--------|--------|-------|-----------|----------|
+| [Warren Buffett](warren-buffett.md) | Investing | ★★★ | 🟢 | Should I bet on this opportunity? Long-term hold vs. sell. Valuation discipline. Saying no to a deal. |
+| [Steve Jobs](steve-jobs.md) | Product / entrepreneurship | ★★★ | 🟢 | Which feature to cut. Launch timing. Saying no to requests. Simplifying a product line. |
+| [Chris Voss](chris-voss.md) | Negotiation | ★★★ | 🟢 | Contract talks. Breaking a deadlock. Getting a "no" to open up. Handling a hostile counterpart. |
+| [Richard Feynman](richard-feynman.md) | Research / reasoning | ★★★ | 🟢 | Checking a hypothesis. Hunting for self-deception. Presenting a complex idea simply. Auditing your own logic. |
+| [Cal Newport](cal-newport.md) | Productivity / deep work | ★★ | 🟢 | Time allocation. Reducing distraction. Protecting focused work. Structural fixes vs. willpower fixes. |
+| [Reed Hastings](reed-hastings.md) | Leadership / culture | ★★★ | 🟢 | Building candor into a team. Handling a big strategic pivot. Farming for dissent before committing. |
+| [Travis Kalanick](travis-kalanick.md) | Aggressive growth / startups | ★★ | 🟡 | Push into a hostile market or wait. Speed vs. compliance. Growth at all costs trade-offs. Post-2017 not covered — refresh if needed. |
+| [Julia Evans](julia-evans.md) | Technical teaching / writing | ★ | 🟢 | Explaining something hard to a non-expert. Deciding what's worth documenting. Thin sourcing — good for framing, not depth. |
+| [Sam Altman](sam-altman.md) | AI startups / growth | ★★★ | 🟢 | Should I ship before it's ready? Speed vs. safety trade-offs. How to frame a controversial decision. Building a fast-executing team. |
 
 ---
 
@@ -21,4 +23,6 @@
 After running Distill mode on a new person, add one row to the table above:
 - **Person**: link to the `.md` file
 - **Domain**: 1–3 word category
-- **Best for**: 2–4 specific question types this profile is strongest for (be concrete, not generic)
+- **Depth**: ★★★ if 10+ sources with strong independent coverage · ★★ if 6–9 sources · ★ if ≤5 or mostly self-published
+- **Freshness**: 🟢 if generated within the past year · 🟡 if 1–2 years old · 🔴 if 2+ years or the subject's situation changes fast
+- **Best for**: 2–4 specific question types (be concrete, not generic). If the profile is thin, say so here too.
