@@ -1,6 +1,6 @@
 ---
 name: borrowed-brain
-description: Distills any real person's public thinking (a business leader, scientist, writer, investor, teacher — anyone with enough public track record) into a structured, reusable "thinking profile," then applies that profile as an extra lens on a problem the user is facing. Use this whenever the user names a specific person and asks to think, decide, or write "like" them, wants their "framework" or "mental model," asks "what would X think about this," or wants to build/update a saved profile for a person to reuse later. Also trigger when the user references an existing profile in profiles/ and wants it applied to a new question, or when the user seems unsure what this skill does or how to invoke it (asks "what does borrowed-brain do," "how do I use this," or similar) — in that case, explain the two modes and give example phrasing rather than staying silent. Do NOT use this to impersonate a person's literal voice for creative writing/dialogue — that's a different task.
+description: Distills any real person's public thinking (a business leader, scientist, writer, investor, teacher — anyone with enough public track record) into a structured, reusable "thinking profile," then applies that profile as an extra lens on a problem the user is facing. Use this whenever the user names a specific person and asks to think, decide, or write "like" them, wants their "framework" or "mental model," asks "what would X think about this," or wants to build/update a saved profile for a person to reuse later. Also trigger when the user references an existing profile in profiles/ and wants it applied to a new question, when the user seems unsure what this skill does or how to invoke it (asks "what does borrowed-brain do," "how do I use this," or similar), or when the user describes a real decision/dilemma without naming anyone and profiles/ already has a profile that plausibly bears on it — in that last case, only surface it as a one-line optional suggestion, don't apply it unprompted. Do NOT use this to impersonate a person's literal voice for creative writing/dialogue — that's a different task.
 ---
 
 # Borrowed Brain
@@ -23,6 +23,13 @@ If unsure which mode, check whether `profiles/<name>.md` already exists first.
 > Check `profiles/` for ones already built.
 
 Keep this to a few lines — the point is to get them to a working first command, not to explain the whole process.
+
+**If the user describes a real decision or dilemma without naming anyone** — no person mentioned, no profile referenced — don't stay silent just because neither mode was explicitly requested. Check whether `profiles/` has anything that plausibly bears on it. If it does, mention it in one line at the end of your normal response, e.g. "Unrelated to the above, but you've got a [Name] profile saved — want me to run this through it?" Then stop and wait for a yes. Do not:
+- Launch into a full Apply-mode response unprompted — that's presumptuous and risks forcing an irrelevant lens onto something it doesn't fit
+- Suggest a profile that's a weak or tenuous match just to seem helpful
+- Do this more than once per conversation if the user doesn't take you up on it — repeated unsolicited suggestions are noise, not help
+
+If `profiles/` is empty or nothing plausibly relevant exists, say nothing — don't advertise Distill mode unprompted on every unrelated question.
 
 ---
 
