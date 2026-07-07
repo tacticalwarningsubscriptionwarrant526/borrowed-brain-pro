@@ -6,7 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/DOTfei/borrowed-brain-pro?style=social)](https://github.com/DOTfei/borrowed-brain-pro/stargazers)
 [![Claude Skill](https://img.shields.io/badge/Claude-Skill-6b4fbb)](SKILL.md)
 
-**A Claude Skill that distills any public figure's thinking into a reusable framework — then applies it as an extra lens on a decision you're actually facing.**
+**An AI instruction file that distills any public figure's thinking into a reusable framework — then applies it as an extra lens on a decision you're actually facing.**
+
+Works with Claude (native Skill), ChatGPT, Open WebUI, local models like Hermes, or any AI that accepts a system prompt — just paste `SKILL.md` as the system prompt and start.
 
 Not a chatbot impersonation. Not a quote generator. A structured "thinking profile" built from real public material — interviews, decisions, failures, criticism — that you can point at your own problem and ask: *what would this framework surface that I'm missing?*
 
@@ -98,9 +100,9 @@ The [`profiles/`](profiles/) folder ships with eight real profiles built by actu
 
 ## Install
 
-This is a Claude Skill — a plain instruction file (`SKILL.md`), no code dependencies.
+`SKILL.md` is a plain text instruction file — no code, no dependencies. Works with any AI that can take a system prompt.
 
-**Claude Code (CLI):**
+**Claude Code (CLI) — native Skill:**
 ```
 mkdir -p ~/.claude/skills/borrowed-brain-pro
 cp SKILL.md ~/.claude/skills/borrowed-brain-pro/
@@ -109,7 +111,11 @@ cp SKILL.md ~/.claude/skills/borrowed-brain-pro/
 
 **Claude.ai:** open Settings → Capabilities → Skills, and upload `SKILL.md` directly.
 
-Either way, restart your session and reference a person by name to trigger it — e.g. "build a thinking profile for \<name\>." No API keys, no config — Claude does the research and writing live using whatever web search/fetch tools are available in your environment. If none are available, the skill will say so rather than silently guessing from memory.
+**ChatGPT / any AI with a system prompt** — open a new chat, paste the full contents of `SKILL.md` as the system prompt, and start.
+
+**Open WebUI, LM Studio, Ollama (local models like Hermes, Llama, Mistral, etc.):** paste `SKILL.md` into the system prompt field of your model config or conversation. Research quality will depend on whether the model has web-search access — if it doesn't, it will draw on its own knowledge, which may be less current or complete than a model with live search.
+
+Either way, restart your session and reference a person by name to trigger it — e.g. "build a thinking profile for \<name\>." No API keys, no extra config required.
 
 ## Guardrails (built in, not optional)
 
