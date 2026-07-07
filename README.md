@@ -12,6 +12,24 @@ Not a chatbot impersonation. Not a quote generator. A structured "thinking profi
 
 ---
 
+## 🚀 Just installed this? Start here
+
+After installing (see [Install](#install) below), open a new chat and just type one of these — no special syntax, no slash command:
+
+```
+Build a thinking profile for Naval Ravikant
+```
+```
+Using the Reed Hastings profile, what am I missing in this hiring decision — [describe it]?
+```
+```
+What does borrowed-brain do?
+```
+
+That last one works too — if you're not sure what to ask, just ask the skill directly and it'll explain the two modes and give you a working first command instead of leaving you guessing.
+
+---
+
 ## Why this exists
 
 Most "think like X" prompts produce generic motivational-poster output — every profile sounds the same because it's built from the polished, public-facing version of a person.
